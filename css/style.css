@@ -1,0 +1,172 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Unlock', cursive;
+    margin: 100px 100px;
+    padding: 0px;
+    background-color: white;
+}
+.aritere {
+    text-align: center;
+    background:;
+    padding: 10px;
+    margin-right: 40px;
+   
+    }
+    
+  
+
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    background:lightslategray;
+    box-shadow:none;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr;
+    grid-gap: 2px;
+}
+header section h3{
+    font-size: 20px;
+    text-decoration: white;
+}
+
+nav{
+    height: 48px;
+   background: blue;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+
+nav a{
+    padding: 20px;
+    color: white;
+    margin-left: 45px;
+    text-decoration: none;
+    display: -webkit-inline-box;
+    
+}
+.container .top{
+    display:grid;
+    grid-template-columns: 3fr 5fr 1fr;
+    grid-gap: 5px;
+}
+nav a:hover{
+    color:red;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 5fr  2fr;
+    grid-gap: 10px;
+    background: wheat;
+    
+}
+.content aside{
+    display: grid;
+    grid-template-columns: 3fr 3fr  3fr 1fr;
+    grid-gap: 20px;
+
+}
+aside{
+    margin-left: 4px;
+}
+aside section img{
+    height: 200px;
+    width: 200px;
+}
+aside section p{
+    font-weight: 500;
+    font-size: 20px;
+}
+div .info{
+    display:grid;
+    grid-template-columns: 5fr 3fr;
+    grid-gap: 4px;
+    margin-top: -20px;
+}
+div .info .information{
+
+    margin-left: 38px;
+}
+
+
+.content .info .announcement{
+    margin-left: 85px;
+    margin-top: -11px;
+}
+
+
+.content .info .announcement h3{
+    margin-left: 5px;
+    font-size: 22px;
+}
+.content .info .announcement a{
+    display: block;
+    text-decoration: none;
+    padding: 20px
+}
+.content .info .announcement a:hover{
+    color: red;
+}
+footer{
+    background: blue;
+    /* height: 96px; */
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr ;
+    grid-gap: 2px;
+}
+footer section a{
+    color: white;
+    display: block;
+    margin-left: 14px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+
+footer .icons p{
+    color:white;
+    margin-left: 20px;
+}
+/*employee Id page-----Start at here------------employee Id page-------------------------employee Id page*/
+/*employee Id page------Start at here------employee Id page------------------------------employee Id page*/
+
+.top1{
+    display:grid;
+    grid-template-columns: 3fr 5fr 1fr;
+    grid-gap: 5px;
+}
+.content1{
+    display:grid;
+    grid-template-columns: 3fr 5fr 1fr;
+    grid-gap: 5px;
+    
+}
+
+input[type="text"], input[type="number"], input[type="date"],input[type="email"] {
+    height: 30px;
+    border: 3px solid #127acc;
+    margin-top: 7px;
+    padding: 4px 8px;
+    width: 223px
+}
+button{
+    height: 34px;
+    width: 107px;
+    background: lavenderblush;
+    border: 3px solid black;
+    margin-bottom: 8px;
+}
+
+/*Staff member page-----Start at here------------Staff member page-------------------------Staff member page*/
+/*Staff member page------Start at here------Staff member page------------------------------Staff member page*/
+
+
+.content2{
+    display:grid;
+    grid-template-columns: 3fr 5fr 1fr;
+    grid-gap: 5px;
+
+}
